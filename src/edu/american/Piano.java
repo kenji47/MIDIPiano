@@ -95,6 +95,7 @@ public class Piano implements ActionListener {
     private Border border = BorderFactory.createBevelBorder(BevelBorder.LOWERED);
 
     private String my_s;
+    private Integer my_i;
 
 	/** Constructs the GUI */
 	public Piano(){
