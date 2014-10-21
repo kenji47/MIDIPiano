@@ -96,7 +96,7 @@ public class Piano implements ActionListener {
 
     private String my_s;
     private Integer my_i;
-
+    private Byte my_b;
 	/** Constructs the GUI */
 	public Piano(){
 
