@@ -93,10 +93,14 @@ public class Piano implements ActionListener {
 	private Color customColor = new Color(170,180,254);
 	/** Border for entry fields*/
     private Border border = BorderFactory.createBevelBorder(BevelBorder.LOWERED);
-	
+
+    private String my_s;
+
 	/** Constructs the GUI */
 	public Piano(){
-		
+
+
+
 		// ------------ Create GUI -----------
 		frame = new JFrame("Piano GUI");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
